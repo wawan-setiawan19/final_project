@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 100vh;
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+.nav-brand {
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-link {
+    float: right;
+    padding-right: 10%;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav-item:hover {
+    color: rgb(255, 224, 47);
+}
+
+.banner {
+    padding: 30vh 10vw;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    text-shadow: 0 0 20px white;
+}
+
+.banner button {
+    border: none;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px white;
+    cursor: pointer;
+}
+
+.banner button:hover {
+    box-shadow: 0 0 30px white;
+    background-color: rgb(255, 224, 47);
+}
+
+.social-media img {
+    display: inline-block;
+}
+
+.social-media span {
+    font-size: 1.3rem;
+}
+
+section:nth-child(even) {
+    background-color: #eee;
+}
+
+.card {
+    margin: 50px auto 50px auto;
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    overflow: auto;
+    border-radius: 20px;
+}
+
+.clearfix {
+    clear: both;
+    overflow: auto;
+}
+
+.card img {
+    float: left;
+    width: 40%;
+    height: 100%;
+    max-width: 100%;
+    margin-bottom: 0;
+    object-fit: cover;
+    padding: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.card-content {
+    padding: 60px;
+    float: left;
+    width: 60%;
+}
+
+.title-section {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.brand-section {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.content {
+    padding: 0 50px 0 0;
+}
+
+#menu-rek,
+#menu {
+    padding: 0 20vh;
+    margin: 20px 0;
+}
+
+.container {
+    padding: 20px 40px;
+}
+
+.card-menu {
+    float: left;
+    width: calc(33.33% - 40px);
+    box-shadow: 6px 10px 20px #bbb;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.card-menu:hover {
+    box-shadow: 6px 10px 30px #bbb;
+}
+
+.card-menu img {
+    max-width: 100%;
+    min-width: 100%;
+    height: 400px;
+    object-position: center;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.content-card {
+    padding: 15px;
+}
+
+.content-card h2 {
+    font-size: 20px;
+    margin: 0;
+    display: inline-block;
+}
+
+.content-card h5 {
+    font-size: 20px;
+    float: right;
+    margin: 0;
+}
+
+/* Card Menu Makanan dan Minuman */
+#menu .card-menu {
+    float: left;
+    width: calc(50% - 30px);
+    margin-left: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px #ddd;
+    border-radius: 20px;
+}
+
+.card-category {
+    padding: 10% 0;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    width: 100%;
+    max-height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.makanan {
+    background-image: url(./akemy-mory-O4CVzHODjjM-unsplash.jpg);
+}
+
+.minuman {
+    background-image: url(./demi-deherrera-L-sm1B4L1Ns-unsplash.jpg);
+}
+
+table {
+    width: calc(100% - 20px);
+    margin: 10px;
+}
+
+td {
+    font-size: 1.3rem;
+}
+
+td:nth-child(1) {
+    font-weight: 400;
+    width: 70%;
+}
+
+td:nth-child(2) {
+    width: 30%;
+    text-align: right;
+    padding-right: 50px;
+    font-weight: 700;
+}
+
+/* Card Contact */
+#contact {
+    position: relative;
+}
+
+.card-contact {
+    max-width: 400px;
+    /* height: 200px; */
+    padding: 50px;
+    border-radius: 20px;
+    border: 5px solid white;
+    background-color: rgb(51, 186, 196);
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-brand {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+footer {
+    padding: 10px 10vh;
+    background-color: teal;
+}
+
+.logo-brand {
+    font-size: 3rem;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.floating-btn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: teal;
+    border-radius: 50% 50% 50% 5px;
+}
+
+.floating-btn img{
+    top: 10px;
+    width: 80px;
+}
