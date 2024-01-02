@@ -28,6 +28,11 @@ nav {
     font-weight: 700;
 }
 
+.img-brand{
+    height: 80px;
+    margin-top: -20px;
+}
+
 .nav-link {
     float: right;
     padding-right: 10%;
@@ -52,6 +57,7 @@ nav {
 
 .banner h1 {
     font-size: 4rem;
+    color: black;
     text-shadow: 0 0 20px white;
 }
 
@@ -119,7 +125,7 @@ section:nth-child(even) {
 }
 
 .title-section {
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 500;
 }
 
@@ -206,12 +212,12 @@ section:nth-child(even) {
     background-position: center;
 }
 
-.makanan {
-    background-image: url(./akemy-mory-O4CVzHODjjM-unsplash.jpg);
+.baju {
+    background-image: url(./baju.jpg);
 }
 
-.minuman {
-    background-image: url(./demi-deherrera-L-sm1B4L1Ns-unsplash.jpg);
+.celana {
+    background-image: url(./celana.jpg);
 }
 
 table {
@@ -233,6 +239,15 @@ td:nth-child(2) {
     text-align: right;
     padding-right: 50px;
     font-weight: 700;
+}
+
+.about{
+    width: 75%;
+    height: fit-content;
+}
+
+.about-img{
+    height: 500px !important;
 }
 
 /* Card Contact */
